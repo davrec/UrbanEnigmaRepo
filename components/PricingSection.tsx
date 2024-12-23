@@ -32,7 +32,7 @@ export function PricingSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {pricingOptions.map((option, index) => (
             <div key={index} className="relative flex flex-col items-center bg-black p-8 rounded-lg backdrop-blur-lg bg-opacity-50">
-              <div className="text-yellow-500 mb-4">
+              <div className="text-primary mb-4">
                 {[...Array(option.iconSize)].map((_, i) => (
                   <Users key={i} className="w-8 h-8 inline-block -ml-2 first:ml-0" />
                 ))}
