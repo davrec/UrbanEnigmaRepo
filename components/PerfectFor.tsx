@@ -40,7 +40,7 @@ export function PerfectFor() {
               <h3 className="text-white text-xl font-bold mb-4">
                 {section.title}
               </h3>
-              <p className="text-gray-400">
+              <p className="text-secondary">
                 {section.description}
               </p>
             </div>
