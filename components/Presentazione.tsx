@@ -34,7 +34,7 @@ export function Presentazione() {
         
         {/* Testo sotto il bottone */}
         <p className="text-4xl text-secondary" style={{ fontFamily: "'Pirata One', serif" }}>
-          e vivi un'esperienza unica!
+          e vivi un&apos;esperienza unica!
         </p>
       </div>
 

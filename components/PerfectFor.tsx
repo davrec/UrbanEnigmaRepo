@@ -1,4 +1,4 @@
-import { Users, PuzzleIcon as PuzzlePiece, Flag, Users2 } from 'lucide-react'
+import { Users, PuzzleIcon as PuzzlePiece, Users2 } from 'lucide-react'
 
 export function PerfectFor() {
   const sections = [
@@ -25,7 +25,7 @@ export function PerfectFor() {
       <div className="w-[90%] md:w-[60%] mx-auto">
 
         <div className="text-center mb-16">
-          <p className="text-primary text-lg mb-4">Un'esperienza adrenalinica</p>
+          <p className="text-primary text-lg mb-4">Un&apos;esperienza adrenalinica</p>
           <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight">
             LE NOSTRE STANZE SONO PERFETTE PER
           </h2>
