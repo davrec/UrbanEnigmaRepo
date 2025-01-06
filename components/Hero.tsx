@@ -16,7 +16,7 @@ export function Hero() {
       <div className="relative z-10 container mx-auto flex flex-col justify-center items-center h-full text-center pt-20 px-4 sm:px-0">
         {/* Titolo */}
         <h2
-          className="text-5xl sm:text-8xl font-extrabold mb-10 text-primary"
+          className="text-6xl sm:text-8xl font-extrabold mb-10 text-primary"
         >
           Urban
           <br/>
