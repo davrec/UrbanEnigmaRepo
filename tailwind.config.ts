@@ -9,14 +9,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["'Pirata One'", "serif"],
+        sans: ['Roboto', 'sans-serif'],
       },
       colors: {
         primary: "#8B0000", // Rosso scuro
-        secondary: "#D3D3D3", // Grigio chiaro
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-        footerBG: "#808080", // Questo codice colore per il footer è già presente
+        secondary: "#D3D3D3", // Grigio molto chiaro
+        bgScuro: "#1A1A1A",
+        bgChiaro: "#4A4A4A",
       },
     },
   },

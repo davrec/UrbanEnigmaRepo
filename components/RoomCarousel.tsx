@@ -10,11 +10,11 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 const rooms = [
-    { id: 1, name: "La Cripta Dimenticata", subtitle: "Svela i segreti sepolti", image: "/images/cripta.jpg" },
-    { id: 2, name: "Il Laboratorio del Pazzo", subtitle: "Sopravvivi agli esperimenti", image: "/images/laboratorio.jpg" },
-    { id: 3, name: "La Mansione Infestata", subtitle: "Affronta i fantasmi del passato", image: "/images/indizio.jpg" },
-    { id: 4, name: "L'Antico Tempio Maledetto", subtitle: "Sfuggi alla maledizione", image: "/images/tempio.jpg" },
-    { id: 5, name: "La Nave Pirata", subtitle: "Trova il tesoro nascosto", image: "/images/pirata.jpg" },
+    { id: 1, name: "La Cripta Dimenticata", subtitle: "Svela i segreti sepolti", image: "/rooms/indizio.jpg" },
+    { id: 2, name: "Il Laboratorio del Pazzo", subtitle: "Sopravvivi agli esperimenti", image: "/rooms/man.jpg" },
+    { id: 3, name: "La Mansione Infestata", subtitle: "Affronta i fantasmi del passato", image: "/rooms/indizio.jpg" },
+    { id: 4, name: "L'Antico Tempio Maledetto", subtitle: "Sfuggi alla maledizione", image: "/rooms/man.jpg" },
+    { id: 5, name: "La Nave Pirata", subtitle: "Trova il tesoro nascosto", image: "/rooms/indizio.jpg" },
 ]
 
 export function RoomCarousel() {

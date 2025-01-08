@@ -1,12 +1,12 @@
 'use client';
 
-export function Hero() {
+export function HeroFaq() {
   return (
     <div
       className="relative bg-cover bg-center text-secondary"
       style={{
         backgroundImage: "url('images/pareteTagliata.webp')",
-        height: "100vh", // Altezza pari all'intero schermo
+        height: "40vh",
       }}
     >
       {/* Overlay per scurire l'immagine  */}
@@ -16,25 +16,11 @@ export function Hero() {
       <div className="relative z-10 container mx-auto flex flex-col justify-center items-center h-full text-center pt-20 px-4 sm:px-0">
         {/* Titolo */}
         <h2
-          className="text-5xl sm:text-8xl font-bold mb-10 text-primary"
+          className="text-5xl sm:text-7xl font-bold mb-10 text-primary"
         >
-          Urban Enigma
+          FAQs
         </h2>
-        <p
-          className="text-2xl sm:text-5xl mb-10"
-        >
-          Sei pronto ad affrontare il mistero?
-        </p>
 
-        {/* Button "Prenota ora" */}
-        <div className="mb-4 mt-5">
-          <a
-            href="/gamesTicket"
-            className="inline-block text-2xl sm:text-4xl px-6 sm:px-10 py-3 sm:py-5 leading-none rounded bg-primary text-secondary hover:text-primary hover:bg-secondary transition duration-300"
-          >
-            Prenota ora
-          </a>
-        </div>
       </div>
 
       {/* Linea alla fine del div con spessore maggiore */}

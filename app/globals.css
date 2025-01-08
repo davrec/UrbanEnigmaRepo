@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root {
   --background: #ffffff;
@@ -20,35 +21,3 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Stili per la paginazione Swiper */
-.custom-pagination {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-}
-
-.custom-pagination .swiper-pagination-bullet {
-  width: 8px;
-  height: 8px;
-  background: #4b5563;
-  opacity: 0.5;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.custom-pagination .swiper-pagination-bullet-active {
-  opacity: 1;
-  background: #eab308;
-}
-
-/* Stili per le frecce di navigazione */
-.custom-prev-button,
-.custom-next-button {
-  cursor: pointer;
-}
-
-.custom-prev-button.swiper-button-disabled,
-.custom-next-button.swiper-button-disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}

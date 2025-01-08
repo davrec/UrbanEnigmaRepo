@@ -1,8 +1,9 @@
 import { Navbar } from '../components/Navbar'
 import { Footer } from '../components/Footer'
-import { PricingSection } from '@/components/PricingSection'
 import { PerfectFor } from '@/components/PerfectFor'
 import { Hero } from '@/components/Hero'
+import { AboutSection } from '@/components/AboutSection'
+import { FAQSection } from '@/components/FaqSection'
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       <main className="flex-grow">
         <Hero/>
         <PerfectFor/>
-        <PricingSection/>
+        <AboutSection/>
+        <FAQSection/>
       </main>
       <Footer />
     </div>

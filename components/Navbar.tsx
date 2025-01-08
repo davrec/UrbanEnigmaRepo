@@ -33,7 +33,7 @@ export function Navbar() {
         {/* Logo tutto a sinistra */}
         <Link href="/" className="flex items-center flex-shrink-0">
           <div className="w-20 h-20 bg-primary rounded-full flex justify-center items-center">
-            <img src="/favicon.png" alt="Logo" className="w-12 h-12" />
+            <img src="/favicon.webp" alt="Logo" className="w-12 h-12" />
           </div>
         </Link>
 
@@ -66,20 +66,26 @@ export function Navbar() {
 
           {/* Menu desktop */}
           <div className="hidden lg:flex lg:space-x-12">
-            <Link
-              href="/games-and-tickets"
+          <Link
+              href="/"
               className="flex items-center text-white hover:text-gray-300 transition duration-300"
             >
-              Games & Ticket
+              Home
             </Link>
             <Link
-              href="/how-to-play"
+              href="/book"
+              className="flex items-center text-white hover:text-gray-300 transition duration-300"
+            >
+              Tickets
+            </Link>
+            <Link
+              href="/come-giocare"
               className="flex items-center text-white hover:text-gray-300 transition duration-300"
             >
               Come Giocare
             </Link>
             <Link
-              href="/about-us"
+              href="/su-di-noi"
               className="flex items-center text-white hover:text-gray-300 transition duration-300"
             >
               Su Di Noi
@@ -126,22 +132,29 @@ export function Navbar() {
       {isMenuOpen && (
         <div className="lg:hidden bg-black bg-opacity-90 p-6 absolute top-full left-0 w-full">
           <div className="flex flex-col space-y-4">
-            <Link
-              href="/games-and-tickets"
+          <Link
+              href="/"
               className="text-white hover:text-gray-300 transition duration-300"
               onClick={() => setIsMenuOpen(false)}
             >
-              Games & Ticket
+              Home
             </Link>
             <Link
-              href="/how-to-play"
+              href="/book"
+              className="text-white hover:text-gray-300 transition duration-300"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Tickets
+            </Link>
+            <Link
+              href="/come-giocare"
               className="text-white hover:text-gray-300 transition duration-300"
               onClick={() => setIsMenuOpen(false)}
             >
               Come Giocare
             </Link>
             <Link
-              href="/about-us"
+              href="/su-di-noi"
               className="text-white hover:text-gray-300 transition duration-300"
               onClick={() => setIsMenuOpen(false)}
             >
