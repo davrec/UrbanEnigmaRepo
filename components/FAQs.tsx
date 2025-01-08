@@ -4,9 +4,9 @@ import { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 
 export function FAQs() {
-  const [openIndex, setOpenIndex] = useState(null);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const toggleDropdown = (index) => {
+  const toggleDropdown = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
@@ -61,7 +61,7 @@ export function FAQs() {
           {faqs.map((faq, index) => (
             <div key={index} className="bg-bgChiaro p-6 rounded-lg shadow-lg">
               <div className="flex justify-between items-center">
-                <h4 className="text-2xl font-bold text-white">{faq.question}</h4>
+                <h4 className="text-2xl font-bold text-secondary">{faq.question}</h4>
                 <button
                   onClick={() => toggleDropdown(index)}
                   className="text-secondary focus:outline-none"
