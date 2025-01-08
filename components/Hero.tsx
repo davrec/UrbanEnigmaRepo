@@ -29,7 +29,7 @@ export function Hero() {
         {/* Button "Prenota ora" */}
         <div className="mb-4 mt-5">
           <a
-            href="/gamesTicket"
+            href="/book"
             className="inline-block text-2xl sm:text-4xl px-6 sm:px-10 py-3 sm:py-5 leading-none rounded bg-primary text-secondary hover:text-primary hover:bg-secondary transition duration-300"
           >
             Prenota ora
