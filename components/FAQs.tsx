@@ -11,7 +11,7 @@ export function FAQs() {
           <div className="bg-bgChiaro p-6 rounded-lg shadow-lg mt-10">
             <h4 className="text-2xl font-bold mb-4 text-secondary">Che cos&apos;è Urban enigma?</h4>
             <p className="text-lg leading-relaxed">
-              Urban enigma è un'esperienza di gioco all'aperto che trasforma la città di Napoli in un grande campo di gioco.
+              Urban enigma è un&apos;esperienza di gioco all&apos;aperto che trasforma la città di Napoli in un grande campo di gioco.
               Attraverso percorsi interattivi, i giocatori risolvono enigmi e scoprono installazioni nascoste guidati dalla nostra app dedicata.
             </p>
           </div>
@@ -30,7 +30,7 @@ export function FAQs() {
           <div className="bg-bgChiaro p-6 rounded-lg shadow-lg mt-10">
             <h4 className="text-2xl font-bold mb-4 text-secondary">Quante persone possono partecipare?</h4>
             <p className="text-lg leading-relaxed">
-              I nostri percorsi sono progettati per gruppi da 2 a 4 persone. Tuttavia, è possibile adattare l'esperienza per gruppi più grandi, suddividendoli in squadre che possono competere tra loro.
+              I nostri percorsi sono progettati per gruppi da 2 a 4 persone. Tuttavia, è possibile adattare l&apos;esperienza per gruppi più grandi, suddividendoli in squadre che possono competere tra loro.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export function FAQs() {
           <div className="bg-bgChiaro p-6 rounded-lg shadow-lg mt-10">
             <h4 className="text-2xl font-bold mb-4 text-secondary">È necessario prenotare in anticipo?</h4>
             <p className="text-lg leading-relaxed">
-              Sì, è consigliabile prenotare il percorso desiderato tramite la nostra app o il sito web per garantire disponibilità e ricevere tutte le informazioni necessarie prima dell'inizio del gioco.
+              Sì, è consigliabile prenotare il percorso desiderato tramite la nostra app o il sito web per garantire disponibilità e ricevere tutte le informazioni necessarie prima dell&apos;inizio del gioco.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export function FAQs() {
           <div className="bg-bgChiaro p-6 rounded-lg shadow-lg mt-10">
             <h4 className="text-2xl font-bold mb-4 text-secondary">È necessario avere una connessione internet durante il gioco?            </h4>
             <p className="text-lg leading-relaxed">
-              Sì, è consigliabile avere una connessione internet stabile durante l'intera esperienza per garantire il corretto funzionamento dell'app e la ricezione degli indizi in tempo reale.
+              Sì, è consigliabile avere una connessione internet stabile durante l&apos;intera esperienza per garantire il corretto funzionamento dell&apos;app e la ricezione degli indizi in tempo reale.
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export function FAQs() {
           <div className="bg-bgChiaro p-6 rounded-lg shadow-lg mt-10">
             <h4 className="text-2xl font-bold mb-4 text-secondary">Come posso contattare il supporto durante il gioco?            </h4>
             <p className="text-lg leading-relaxed">
-              Se incontri difficoltà o hai bisogno di assistenza durante il percorso, puoi utilizzare la funzione di supporto integrata nell'app o contattare il nostro team tramite i canali di contatto forniti sul sito
+              Se incontri difficoltà o hai bisogno di assistenza durante il percorso, puoi utilizzare la funzione di supporto integrata nell&apos;app o contattare il nostro team tramite i canali di contatto forniti sul sito
             </p>
           </div>
 

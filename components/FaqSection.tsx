@@ -17,7 +17,7 @@ export function FAQSection() {
           <div className="flex-1 bg-bgScuro p-6 rounded-lg shadow-lg">
             <h4 className="text-2xl font-semibold mb-4 text-primary">Che cos&apos;è Urban enigma?</h4>
             <p className="text-lg leading-relaxed">
-            Urban enigma è un'esperienza di gioco all'aperto che trasforma la città di Napoli in un grande campo di gioco. 
+            Urban enigma è un&apos;esperienza di gioco all&apos;aperto che trasforma la città di Napoli in un grande campo di gioco. 
             Attraverso percorsi interattivi, i giocatori risolvono enigmi e scoprono installazioni nascoste guidati dalla nostra app dedicata.
             </p>
           </div>
@@ -35,7 +35,7 @@ export function FAQSection() {
           <div className="flex-1 bg-bgScuro p-6 rounded-lg shadow-lg">
             <h4 className="text-2xl font-semibold mb-4 text-primary">Quante persone possono partecipare?</h4>
             <p className="text-lg leading-relaxed">
-            I nostri percorsi sono progettati per gruppi da 2 a 4 persone. Tuttavia, è possibile adattare l'esperienza per gruppi più grandi, suddividendoli in squadre che possono competere tra loro.
+            I nostri percorsi sono progettati per gruppi da 2 a 4 persone. Tuttavia, è possibile adattare l&apos;esperienza per gruppi più grandi, suddividendoli in squadre che possono competere tra loro.
             </p>
           </div>
         </div>
