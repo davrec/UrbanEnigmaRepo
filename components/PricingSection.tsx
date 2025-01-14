@@ -14,7 +14,7 @@ const pricingOptions = [
     iconSize: 2
   },
   {
-    players: "4+ giocatori",
+    players: "3+ giocatori",
     price: "20€",
     priceDetail: "/ per person",
     iconSize: 4
